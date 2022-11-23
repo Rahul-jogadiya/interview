@@ -1,0 +1,10 @@
+.App {
+  position: absolute;
+  right: 50%;
+  bottom: 50%;
+  transform: translate(50%, 50%);
+}
+
+body {
+  background: rgb(199, 179, 244) !important;
+}
