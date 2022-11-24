@@ -1,11 +1,11 @@
 import "./App.css";
-import { Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./component/Home";
 import FormComponent from "./component/form";
 
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route
@@ -21,7 +21,7 @@ function App() {
           }
         />
       </Routes>
-    </div>
+    </BrowserRouter>
   );
 }
 
